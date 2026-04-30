@@ -5,24 +5,21 @@
     "email": "ds.group@storicard.com"
   },
   "description": "Stori's internal plugin marketplace for ML/Data Science projects",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "plugins": [
     {
       "name": "beast",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/luis-rico-stori/personal-plugins.git",
-        "path": "skills/beast-pipeline"
-      },
-      "version": "0.6.0",
       "description": "Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines.",
-      "author": {
-        "name": "Luis Rico",
-        "email": "luis.rico@storicard.com"
-      },
+      "source": "./",
+      "strict": false,
       "keywords": ["airflow", "orchestration", "sagemaker", "batch-processing"],
       "category": "mlops",
-      "tags": ["airflow", "orchestration", "batch-processing"]
+      "tags": ["airflow", "orchestration", "batch-processing"],
+      "skills": [
+        "./skills/beast-pipeline/add-sensor-to-dag",
+        "./skills/beast-pipeline/create-custom-sensor",
+        "./skills/beast-pipeline/create-dag",
+        "./skills/beast-pipeline/beast-index"]
     }
   ]
 }
