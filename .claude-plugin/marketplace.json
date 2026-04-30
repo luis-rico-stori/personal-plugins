@@ -14,7 +14,7 @@
         "url": "https://github.com/luis-rico-stori/personal-plugins.git",
         "path": "skills/beast-pipeline"
       },
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines.",
       "author": {
         "name": "Luis Rico",
