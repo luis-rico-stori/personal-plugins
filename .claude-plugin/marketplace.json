@@ -1,12 +1,11 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "ds-ai-marketplace",
   "owner": {
     "name": "Stori DS Team",
     "email": "ds.group@storicard.com"
   },
   "description": "Stori's internal plugin marketplace for ML/Data Science projects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "plugins": [
     {
       "name": "beast",
