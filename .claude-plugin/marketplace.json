@@ -13,7 +13,7 @@
       "name": "beast",
       "description": "Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines.",
       "source": "./",
-      "strict": false,
+      "strict": true,
       "skills": [
         "./skills/add-sensor-to-dag",
         "./skills/create-custom-sensor",
@@ -25,7 +25,7 @@
       "name": "ds-utilities",
       "description": "A collection of utility functions and tools commonly used in data science projects at Stori.",
       "source": "./",
-      "strict": false,
+      "strict": true,
       "skills": [
         "./skills/nbjob-2-pipeline"
       ]
