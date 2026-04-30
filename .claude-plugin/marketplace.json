@@ -4,22 +4,21 @@
     "name": "Stori DS Team",
     "email": "ds.group@storicard.com"
   },
-  "description": "Stori's internal plugin marketplace for ML/Data Science projects",
-  "version": "1.0.0",
+  "metadata": {
+    "description": "Stori's internal plugin marketplace for ML/Data Science projects",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "beast",
       "description": "Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines.",
       "source": "./",
       "strict": false,
-      "keywords": ["airflow", "orchestration", "sagemaker", "batch-processing"],
-      "category": "mlops",
-      "tags": ["airflow", "orchestration", "batch-processing"],
       "skills": [
-        ".skills/add-sensor-to-dag",
-        ".skills/create-custom-sensor",
-        ".skills/create-dag",
-        ".skills/beast-index"
+        "./skills/add-sensor-to-dag",
+        "./skills/create-custom-sensor",
+        "./skills/create-dag",
+        "./skills/beast-index"
       ]
     },
     {
@@ -27,11 +26,8 @@
       "description": "A collection of utility functions and tools commonly used in data science projects at Stori.",
       "source": "./",
       "strict": false,
-      "keywords": ["utilities", "data-science", "tools"],
-      "category": "utilities",
-      "tags": ["utilities", "data-science", "tools"],
       "skills": [
-        ".skills/nbjob-2-pipeline"
+        "./skills/nbjob-2-pipeline"
       ]
     }
   ]
