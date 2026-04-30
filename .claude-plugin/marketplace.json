@@ -19,7 +19,9 @@
         "./skills/beast-pipeline/add-sensor-to-dag",
         "./skills/beast-pipeline/create-custom-sensor",
         "./skills/beast-pipeline/create-dag",
-        "./skills/beast-pipeline/beast-index"]
+        "./skills/beast-pipeline/beast-index",
+        "./skills/sagemaker/nbjob-2-pipeline"
+      ]
     }
   ]
 }
