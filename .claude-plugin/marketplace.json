@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "ds-ai-marketplace",
+  "owner": {
+    "name": "Stori DS Team",
+    "email": "ds.group@storicard.com"
+  },
+  "description": "Stori's internal plugin marketplace for ML/Data Science projects",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "beast",
+      "source": "./plugins/beast",
+      "version": "0.1.0",
+      "description": "Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines.",
+      "author": {
+        "name": "Luis Rico",
+        "email": "luis.rico@storicard.com"
+      },
+      "keywords": ["airflow", "orchestration", "sagemaker", "batch-processing"],
+      "category": "mlops",
+      "tags": ["airflow", "orchestration", "batch-processing"]
+    }
+  ]
+}
