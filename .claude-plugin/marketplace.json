@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Stori's internal plugin marketplace for ML/Data Science projects",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -19,7 +19,8 @@
         "./skills/beast-pipeline/create-custom-sensor",
         "./skills/beast-pipeline/create-dag",
         "./skills/beast-pipeline/beast-index"
-      ]
+      ],
+      "version": "1.0.0"
     },
     {
       "name": "ds-utilities",
@@ -28,7 +29,8 @@
       "strict": false,
       "skills": [
         "./sagemaker/nbjob-2-pipeline"
-      ]
+      ],
+      "version": "1.0.0"
     }
   ]
 }
