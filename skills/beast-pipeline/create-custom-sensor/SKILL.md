@@ -1,5 +1,5 @@
 ---
-name: beast-pipeline-create-custom-sensor
+name: create-custom-sensor
 description: Build a new Airflow sensor class from scratch, or modify the behavior of an existing sensor in dags/sensors/. Use when the existing catalog (S3SuccessCustomSensor, RedshiftFreshnessSensor, OffHoursSensor, etc.) genuinely doesn't cover the signal you need to wait on, when adding a new field or extension to an existing sensor, or when updating the sensor factory. For simply wiring an existing sensor into a DAG, use beast-pipeline-add-sensor-to-dag instead.
 ---
 

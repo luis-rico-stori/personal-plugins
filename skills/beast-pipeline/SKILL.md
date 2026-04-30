@@ -1,5 +1,5 @@
 ---
-name: beast-pipeline
+name: beast-index
 description: Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines. Use when the user asks about creating a new DAG for a model, feature, or monitoring workflow; adding S3 or Redshift sensors; wiring cross-DAG dependencies via ExternalTaskSensor; or shipping a DAG through the PR/deploy process. Routes to the correct sub-skill based on the user's goal.
 ---
 

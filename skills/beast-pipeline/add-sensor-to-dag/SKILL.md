@@ -1,5 +1,5 @@
 ---
-name: beast-pipeline-add-sensor-to-dag
+name: add-sensor-to-dag
 description: Wire an existing sensor class into a BEAST DAG — S3 _SUCCESS marker via S3SuccessSensorFactory, Redshift freshness via RedshiftFreshnessSensor, or cross-DAG wait via ExternalTaskSensor. Use when adding a new upstream dependency to a DAG, adjusting timeouts and poke intervals, or choosing between the three sensor types. For building a NEW sensor class from scratch or modifying existing sensor behavior, use beast-pipeline-create-custom-sensor instead.
 ---
 

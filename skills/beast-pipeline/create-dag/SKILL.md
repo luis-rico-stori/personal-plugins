@@ -1,5 +1,5 @@
 ---
-name: beast-pipeline-create-dag
+name: create-dag
 description: Create a new BEAST DAG — for a model (scoring/training), a feature engineering pipeline, or a monitoring workflow. Use when adding a new DAG to dags/beast_models/, dags/beast_features/, or dags/beast_model_monitoring/ in mlops-mwaa-dags. Emits a conventions-correct scaffold, wires the required on_failure_callback, short-circuit partition guard, sensors, and SageMakerStartPipelineOperator.
 ---
 
