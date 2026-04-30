@@ -10,17 +10,28 @@
     {
       "name": "beast",
       "description": "Platform skill for onboarding onto BEAST — Stori's batch Pre-decisioning Platform built on AWS MWAA (Airflow) orchestrating SageMaker Pipelines.",
-      "source": "./skills/",
+      "source": "./",
       "strict": false,
       "keywords": ["airflow", "orchestration", "sagemaker", "batch-processing"],
       "category": "mlops",
       "tags": ["airflow", "orchestration", "batch-processing"],
       "skills": [
-        "./beast-pipeline/add-sensor-to-dag",
-        "./beast-pipeline/create-custom-sensor",
-        "./beast-pipeline/create-dag",
-        "./beast-pipeline/beast-index",
-        "./sagemaker/nbjob-2-pipeline"
+        ".skills/add-sensor-to-dag",
+        ".skills/create-custom-sensor",
+        ".skills/create-dag",
+        ".skills/beast-index"
+      ]
+    },
+    {
+      "name": "ds-utilities",
+      "description": "A collection of utility functions and tools commonly used in data science projects at Stori.",
+      "source": "./",
+      "strict": false,
+      "keywords": ["utilities", "data-science", "tools"],
+      "category": "utilities",
+      "tags": ["utilities", "data-science", "tools"],
+      "skills": [
+        ".skills/nbjob-2-pipeline"
       ]
     }
   ]
