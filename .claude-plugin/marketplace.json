@@ -24,10 +24,10 @@
     {
       "name": "ds-utilities",
       "description": "A collection of utility functions and tools commonly used in data science projects at Stori.",
-      "source": "./",
+      "source": "./skills/",
       "strict": true,
       "skills": [
-        "./skills/nbjob-2-pipeline"
+        "./nbjob-2-pipeline"
       ]
     }
   ]
