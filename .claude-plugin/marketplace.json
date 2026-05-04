@@ -8,6 +8,14 @@
     "description": "Stori's internal plugin marketplace for ML/Data Science projects",
     "version": "1.0.1"
   },
+  "agents": [
+    {
+      "name": "reviewer",
+      "description": "Expert code reviewer for Stori DS/ML pull requests. Lists open PRs, fetches diffs, and delivers a structured review covering correctness, conventions, performance, tests, and security.",
+      "source": "./agents/reviewer/AGENT.md",
+      "version": "1.0.0"
+    }
+  ],
   "plugins": [
     {
       "name": "beast",
