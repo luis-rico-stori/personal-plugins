@@ -1,21 +1,13 @@
 {
-  "name": "ds-ai-marketplace",
+  "name": "ds-ai-marketplace-local-test",
   "owner": {
-    "name": "Stori DS Team",
-    "email": "ds.group@storicard.com"
+    "name": "Luis Rico",
+    "email": "luis.rico@storicard.com"
   },
   "metadata": {
     "description": "Stori's internal plugin marketplace for ML/Data Science projects",
     "version": "1.0.1"
   },
-  "agents": [
-    {
-      "name": "reviewer",
-      "description": "Expert code reviewer for Stori DS/ML pull requests. Lists open PRs, fetches diffs, and delivers a structured review covering correctness, conventions, performance, tests, and security.",
-      "source": "./agents/reviewer/AGENT.md",
-      "version": "1.0.0"
-    }
-  ],
   "plugins": [
     {
       "name": "beast",
@@ -39,6 +31,19 @@
         "./skills/sagemaker/nbjob-2-pipeline"
       ],
       "version": "1.0.0"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
+      },
+      "author": {
+        "name": "forrestchang"
+      },
+      "license": "MIT",
+      "keywords": ["guidelines", "best-practices", "coding", "karpathy"]
     }
   ]
 }
